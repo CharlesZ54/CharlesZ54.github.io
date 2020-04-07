@@ -33,12 +33,7 @@ services:
   - name: "Movies/TV"
     icon: "fas fa-film"
     items:
-      # - name: "Emby"
-      #   logo: "assets/tools/emby.png"
-      #   subtitle: "Watch Movies & TV Shows (OLD)"
-      #   tag: ""
-      #   url: "https://emby.zwicker.me"
-      #   target: '_blank' # optionnal html a tag target attribute
+
       - name: "Plex"
         logo: "assets/tools/plex.png"
         subtitle: "Watch Movies & TV Shows"
@@ -57,25 +52,27 @@ services:
         logo: "assets/tools/sync.png"
         subtitle: "Watch together"
         url: "https://sync.zwicker.me/"
-  # - name: "Monitoring"
-  #   icon: "fas fa-heartbeat"
-  #   items:
-  #     - name: "M/Monit"
-  #       logo: "assets/tools/monit.png"
-  #       subtitle: "Monitor & manage all monit enabled hosts"
-  #       tag: "monit"
-  #       url: "https://mmonit.com/monit/"
-  #     - name: "Grafana"
-  #       logo: "assets/tools/grafana.png"
-  #       subtitle: "Metric analytics & dashboards"
-  #       url: "https://grafana.com/"
-  #     - name: "Kibana"
-  #       logo: "assets/tools/elastic.png"
-  #       subtitle: "Explore & visualize logs"
-  #       tag: "elk"
-  #       url: "https://www.elastic.co/products/kibana"
-  #     - name: "Website monitoring"
-  #       logo: "assets/tools/pingdom.png"
-  #       subtitle: "Pingdom public reports overview"
-  #       tag: "CI"
-  #       url: "https://www.pingdom.com/"
+
+  - name: "Administration"
+    icon: "fas fa-toolbox"
+    items:
+
+      - name: "qBittorrent"
+        logo: ""
+        subtitle: "Torrent Client"
+        url: "http://localhost:8080/"
+
+      - name: "Radarr"
+        logo: ""
+        subtitle: "Movies Aggregator"
+        url: "http://localhost:7878/"
+
+      - name: "Sonarr"
+        logo: ""
+        subtitle: "TV Aggregator"
+        url: "http://localhost:8989/"
+
+      - name: "Jackett"
+        logo: ""
+        subtitle: "Link Aggregator"
+        url: "http://localhost:9117/"
