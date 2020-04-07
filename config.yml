@@ -42,7 +42,8 @@ services:
       - name: "Plex"
         logo: "assets/tools/plex.png"
         subtitle: "Watch Movies & TV Shows"
-        
+        url: "https://plex.zwicker.me/"
+
       - name: "Ombi"
         logo: "assets/tools/ombi.png"
         subtitle: "Request Movies & TV Shows"
@@ -55,6 +56,7 @@ services:
       - name: "SyncLounge"
         logo: "assets/tools/sync.png"
         subtitle: "Watch together"
+        url: "https://sync.zwicker.me/"
   # - name: "Monitoring"
   #   icon: "fas fa-heartbeat"
   #   items:
