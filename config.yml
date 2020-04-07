@@ -33,12 +33,16 @@ services:
   - name: "Movies/TV"
     icon: "fas fa-film"
     items:
-      - name: "Emby"
-        logo: "assets/tools/emby.png"
-        subtitle: "Watch Movies & TV Shows (OLD)"
-        tag: ""
-        url: "https://emby.zwicker.me"
-        target: '_blank' # optionnal html a tag target attribute
+      # - name: "Emby"
+      #   logo: "assets/tools/emby.png"
+      #   subtitle: "Watch Movies & TV Shows (OLD)"
+      #   tag: ""
+      #   url: "https://emby.zwicker.me"
+      #   target: '_blank' # optionnal html a tag target attribute
+      - name: "Plex"
+        logo: "assets/tools/plex.png"
+        subtitle: "Watch Movies & TV Shows"
+        
       - name: "Ombi"
         logo: "assets/tools/ombi.png"
         subtitle: "Request Movies & TV Shows"
@@ -47,9 +51,7 @@ services:
         # Same styling options as the optional message.
         tagstyle: ""
         url: "https://ombi.zwicker.me/"
-      - name: "Plex"
-        logo: "assets/tools/plex.png"
-        subtitle: "Watch Movies & TV Shows"
+
       - name: "SyncLounge"
         logo: "assets/tools/sync.png"
         subtitle: "Watch together"
