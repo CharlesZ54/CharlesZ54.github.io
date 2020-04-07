@@ -12,8 +12,8 @@ footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a hre
 message:
   # url: https://....
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Demo !"
-  content: "This is a dummy homepage demo. Find more information on github.com/bastienwirtz/homer"
+  title: "Welcome !"
+  content: "If you have any questions on how to use this, shoot me a text."
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
