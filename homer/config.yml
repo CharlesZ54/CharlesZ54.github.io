@@ -9,11 +9,11 @@ logo: "assets/logo.png"
 footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a href="https://bulma.io/">bulma</a>, <a href="https://vuejs.org/">vuejs</a> & <a href="https://fontawesome.com/">font awesome</a> // Fork me on <a href="https://github.com/bastienwirtz/homer"><i class="fab fa-github-alt"></i></a></p>'  # set false if you want to hide it.
 
 # Optional message
-message:
-  # url: https://....https://zwicker.me/homer/
-  style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
-  title: "Welcome !"
-  content: "If you have any questions on how to use this, shoot me a text."
+# message:
+#   # url: https://....https://zwicker.me/homer/
+#   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
+#   title: "Welcome !"
+#   content: "If you have any questions on how to use this, shoot me a text."
 
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
