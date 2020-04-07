@@ -10,7 +10,7 @@ footer: '<p>Created with <span class="has-text-danger">❤️</span> with <a hre
 
 # Optional message
 message:
-  # url: https://....
+  # url: https://....https://zwicker.me/homer/
   style: "is-dark" # See https://bulma.io/documentation/components/message/#colors for styling options.
   title: "Welcome !"
   content: "If you have any questions on how to use this, shoot me a text."
@@ -34,13 +34,13 @@ services:
     icon: "fas fa-film"
     items:
       - name: "Emby"
-        logo: "assets/tools/jenkins.png"
+        logo: "assets/tools/emby.png"
         subtitle: "Watch Movies & TV Shows"
         tag: ""
         url: "https://emby.zwicker.me"
         target: '_blank' # optionnal html a tag target attribute
       - name: "Ombi"
-        logo: "assets/tools/rabbitmq.png"
+        logo: "assets/tools/ombi.png"
         subtitle: "Request Movies & TV Shows"
         tag: ""
         # Optional tagstyle
