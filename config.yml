@@ -35,7 +35,7 @@ services:
     items:
       - name: "Emby"
         logo: "assets/tools/emby.png"
-        subtitle: "Watch Movies & TV Shows"
+        subtitle: "Watch Movies & TV Shows (OLD)"
         tag: ""
         url: "https://emby.zwicker.me"
         target: '_blank' # optionnal html a tag target attribute
@@ -47,6 +47,12 @@ services:
         # Same styling options as the optional message.
         tagstyle: ""
         url: "https://ombi.zwicker.me/"
+      - name: "Plex"
+        logo: "assets/tools/plex.png"
+        subtitle: "Watch Movies & TV Shows"
+      - name: "SyncLounge"
+        logo: "assets/tools/sync.png"
+        subtitle: "Watch together"
   # - name: "Monitoring"
   #   icon: "fas fa-heartbeat"
   #   items:
