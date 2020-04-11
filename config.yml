@@ -33,15 +33,15 @@ services:
   - name: "Movies/TV"
     icon: "fas fa-film"
     items:
-      - name: "Emby"
-        logo: "assets/tools/emby.png"
-        subtitle: "Watch Movies & TV Shows"
-        url: "https://emby.zwicker.me/"
-
-      # - name: "Plex"
-      #   logo: "assets/tools/plex.png"
+      # - name: "Emby"
+      #   logo: "assets/tools/emby.png"
       #   subtitle: "Watch Movies & TV Shows"
-      #   url: "https://plex.zwicker.me/"
+      #   url: "https://emby.zwicker.me/"
+
+      - name: "Plex"
+        logo: "assets/tools/plex.png"
+        subtitle: "Watch Movies & TV Shows"
+        url: "https://plex.zwicker.me/"
 
       - name: "Ombi"
         logo: "assets/tools/ombi.png"
@@ -52,10 +52,10 @@ services:
         tagstyle: ""
         url: "https://ombi.zwicker.me/"
 
-      # - name: "SyncLounge"
-      #   logo: "assets/tools/sync.png"
-      #   subtitle: "Watch together"
-      #   url: "https://sync.zwicker.me/"
+      - name: "SyncLounge"
+        logo: "assets/tools/sync.png"
+        subtitle: "Watch together"
+        url: "https://sync.zwicker.me/"
 
   - name: "Administration"
     icon: "fas fa-toolbox"
